@@ -1,15 +1,16 @@
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import Note from "./Note"
+import Note from "./Note";
 
 function App() {
-  return ( 
-  <>
-  <Header />
-  <Footer />
-  <Note />
-  </>
-  )}
+  return (
+    <>
+      <Header />
+      <Footer />
+      <Note />
+    </>
+  );
+}
 
 export default App;

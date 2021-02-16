@@ -1,10 +1,12 @@
 import React from "react";
 
-function Footer(){
-      const today = new Date();
-     return( <footer>
+function Footer() {
+  const today = new Date();
+  return (
+    <footer>
       <p> Jamie Garrett &#169; {today.getFullYear()}</p>
-      </footer>
-     )}
+    </footer>
+  );
+}
 
 export default Footer;

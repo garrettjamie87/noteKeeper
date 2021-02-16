@@ -2,8 +2,8 @@ import React from "react";
 
 function Footer(){
       const today = new Date();
-     return( <footer className='footer'>
-      <p> &#169; {today.getFullYear()}</p>
+     return( <footer>
+      <p> Jamie Garrett &#169; {today.getFullYear()}</p>
       </footer>
      )}
 

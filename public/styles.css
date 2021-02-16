@@ -4,23 +4,23 @@
       box-sizing: border-box;
     }
     html {
-      font-family: "Montserrat", sans-serif;
+      font-family: 'Abril Fatface', cursive;
     }
     body {
-      background: #eee;
+      /* background: #eee; */
       padding: 0 16px;
     }
     
     header {
-      background-color: #f5ba13;
+      background-color: #ffd369;
+      color: black;
       margin: auto -16px;
       padding: 16px 32px;
       box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
     }
     
     header h1 {
-      color: #fff;
-      font-family: "McLaren", cursive;
+      font-family: 'Abril Fatface', cursive;
       font-weight: 200;
     }
     

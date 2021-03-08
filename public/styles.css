@@ -19,7 +19,7 @@ header {
 }
 
 header h1 {
-  color: #dcedc1;
+  color: #323232;
 }
 
 footer {
@@ -31,7 +31,7 @@ footer {
 }
 
 footer p {
-  color: #dcedc1;
+  color: #323232;
 }
 .note {
   background: #a8e6cf;
@@ -59,10 +59,11 @@ footer p {
   margin-right: 10px;
   color: #a8e6cf;
   border: none;
-  width: 36px;
+  width: 80px;
   height: 36px;
   cursor: pointer;
-  outline: none;
+  /* outline: none; */
+  border: solid;
 }
 
 form {

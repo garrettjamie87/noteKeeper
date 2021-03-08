@@ -1,10 +1,10 @@
 import React from "react";
 
 function Footer() {
-  const today = new Date();
+  const year = new Date().getFullYear();
   return (
     <footer>
-      <p> Jamie Garrett &#169; {today.getFullYear()}</p>
+      <p>Copyright ⓒ {year}</p>
     </footer>
   );
 }
